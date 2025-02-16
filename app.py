@@ -1,2 +1,2 @@
 myvar = "Hey nigga 🔫"
-print(myvar * 10)
+print(myvar +"you are gay.")
