@@ -1,15 +1,13 @@
 import datetime
 
+day = datetime.datetime.now()
 
-current_time = datetime.datetime.now()
+hour = day.hour
+name =  input("What is your name?: ")
 
-
-current_hour = current_time.hour
-
-
-if 5 <= current_hour < 12:
-    print("Good Morning!")
-elif 12 <= current_hour < 18:
-    print("Good Afternoon!")
-else:
-    print("Good Night!")
+if 5 <= hour < 12:
+    print(f"Rise n shine {name} ☀️")
+elif 12 <= hour < 18:
+    print(f"Sup {name} its the middle of the day. 🦾")
+else :
+    print(f"Its late Mr {name}, time to get some sleep, 🥱")
